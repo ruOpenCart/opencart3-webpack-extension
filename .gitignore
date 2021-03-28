@@ -9,4 +9,4 @@ opencart
 node_modules
 build
 .env
-.zip
+*.zip
