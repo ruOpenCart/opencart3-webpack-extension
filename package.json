@@ -1,0 +1,32 @@
+{
+  "name": "opencart3-webpack-extension",
+  "version": "3.0.0",
+  "description": "Webpack config for create extension for opencart 3",
+  "main": "webpack.mix.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "laravel-mix": "^6.0.13"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "mix-env-file": "^0.1.1",
+    "mkdirp": "^1.0.4",
+    "postcss": "^8.1.2",
+    "postcss-loader": "^5.2.0",
+    "resolve-url-loader": "^3.1.2",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "development": "mix",
+    "dev": "npm run development",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "prod": "npm run production"
+  }
+}

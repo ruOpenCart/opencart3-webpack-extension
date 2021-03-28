@@ -1,0 +1,12 @@
+# IDE's
+.idea
+.vscode
+
+# OpenCart
+opencart
+
+#
+node_modules
+build
+.env
+.zip
